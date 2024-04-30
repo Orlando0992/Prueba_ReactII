@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+@import url('https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css');
+
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+nav div {
+  background-color: rgba(255, 255, 255, 0.7);
+  border: 1px solid #aaa;
+  border-radius: 0.5rem;
+  padding: 0.5rem ;
+
+  
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+
+.logo {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.logo span {
+  font-size: 1rem;
+  margin-left: 35px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+}
+
+.cart {
+  border-radius: 100%;
+  padding: 0.6rem;
+  background-color: #ec0000;
+  color: #fff;
+}
+
+.cart-price {
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  background-color: #ec0000;
+  color: #fff;
+}
+
+.cart:hover,
+.cart-price:hover {
+  background-color: #05a84b !important;
+}
+
+.home {
+  background-image: url('./assets/imgs/fondo.jpg');
+  background-repeat: no-repeat;
+  background-size: cover !important;
+  background-position: center !important;
+  height: 17rem;
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+}
+
+.home-body {
+  display: flex;
+  flex-direction: column;
+  width: 15rem;
+  padding: 1.2rem;
+  border-radius: 0.3rem;
+  color: white;
+  font-weight: bold;
+}
+
+.home-body h1 {
+  font-size: 1.5rem ;
+}
+
+.home-body p {
+  margin: 0;
+  font-size: 0.7rem;
+}
+
+ul {
+  margin: 0;
+}
+
+li {
+  font-size: 0.8rem;
+}
+
+button {
+  background-color: #ec0000 !important;
+  font-size: 0.9rem !important;
+  border: none !important;
+}
+
+button:hover {
+  background-color: #05a84b !important;
+}
+
+table {
+  font-size: 0.8rem;
+}
+
+table img {
+  width: 3rem;
+  border-radius: 0.3rem;
+}
+
+table td {
+  vertical-align: middle;
+}
+
+table button {
+  background-color: #05a84b !important;
+  padding: 0.3rem 0.5rem !important;
+}
+
+table button:hover {
+  background-color: #ec0000 !important;
+}
+
+.notFound img{
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .logo span {
+    font-size: 1.7rem;
+  }
+
+  .home {
+    background-size: 50rem;
+    background-position-y: 100%;
+  }
+
+  .home-body {
+    width: 36rem;
+  }
+
+  .home-body p {
+    font-size: 1rem;
+  }
+
+  .home-body h1 {
+    font-size: 3rem;
+  }
+
+  .carrito {
+    max-width: 70%;
+  }
+
+  table {
+    font-size: 1rem;
+  }
+
+  table img {
+    width: 5rem;
+    border-radius: 0.5rem;
+  }
+}
